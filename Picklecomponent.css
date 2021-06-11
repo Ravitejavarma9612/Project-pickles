@@ -1,0 +1,50 @@
+.picklecontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 216, 216);
+    width : 100%;
+    max-height: fit-content;
+    align-items: center;
+    box-shadow: 5px 10px 18px red;
+    border-radius: 25px;
+    margin: 40px;
+    min-width: none;
+    justify-content: flex-end;
+}
+.pickle_addtobasket > .MuiButton-contained{
+    width: 200px;
+   background-color: #39eb0b;
+
+    }
+    .pickle_addtobasket{
+        padding-bottom: 20px;
+    }
+
+    
+
+    .pickle_title{
+        font-size: large;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        text-overflow: ellipsis;
+        height: fit-content;
+        width: 100%;
+    }
+    .pickleimage>img{
+        padding: 20px;
+        max-width: 200x;
+        max-height: 200px;
+        object-fit: scale-down;
+        
+    }
+    .pickle_type{
+       padding-left:100px;
+    }
+    .pickle_rating{
+        display: flex;
+        padding: 5px;
+    }
+    .pickle_pricing{
+        padding-bottom: 10px;
+    }
